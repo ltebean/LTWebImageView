@@ -1,13 +1,13 @@
 
 ## Usage
 
-Import by:
+Import:
 
 ```objective-c
 #import "UIImageView+Web.h"
 ```
 
-Then implement `LTStackViewDataSource` protocol:
+Then you can load image from web in UIImageView
 
 ```objective-c
 [imageView setImageWithUrl:[NSURL URLWithString:@"image url"] completionHandler:^(UIImage * image) {
